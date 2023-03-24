@@ -1,17 +1,12 @@
-* {
-  box-sizing: border-box;
+body {
   margin: 0;
   padding: 0;
-}
-
-body {
-  background-color: #333;
-  color: #fff;
   font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
 }
 
-.container {
-  max-width: 960px;
+.wrapper {
+  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -23,54 +18,21 @@ body {
   margin-bottom: 20px;
 }
 
-.logo h1 {
-  font-size: 36px;
-  font-weight: bold;
-  text-transform: uppercase;
+.search-box {
+  position: relative;
+  width: 60%;
+}
+
+.search-box input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  background-color: #fff;
+  font-size: 16px;
 }
 
 .weather {
-  font-size: 24px;
-}
-
-.quote {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.search form {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
-}
-
-.search input[type="text"] {
-  flex: 1;
-  padding: 10px;
-  font-size: 20px;
-  border: none;
-  background-color: #444;
-  color: #fff;
-}
-
-.search button {
-  padding: 10px;
-  font-size: 20px;
-  border: none;
-  background-color: #666;
-  color: #fff;
-  cursor: pointer;
-}
-
-.bookmarks h2,
-.integrations h2,
-.notes h2,
-.ai-assistant h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.bookmarks ul,
-.integrations ul {
-  list-style: none;
-  margin-bottom
+  justify-content: center;
