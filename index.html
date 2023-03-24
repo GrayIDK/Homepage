@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>My Homepage</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <h1>Welcome to My Homepage</h1>
-        <p>This is my first homepage created using HTML and CSS.</p>
-      </section>
-      <section>
+    <div class="container">
+      <div class="top-bar">
+        <div class="logo">
+          <h1>My Homepage</h1>
+        </div>
+        <div class="weather">
+          <p>Weather</p>
+        </div>
+      </div>
+      <div class="quote">
+        <p>Quote of the day</p>
+      </div>
+      <div class="search">
+        <form>
+          <input type="text" placeholder="Search...">
+          <button type="submit">Go</button>
+        </form>
+      </div>
+      <div class="bookmarks">
         <h2>Bookmarks</h2>
         <ul>
           <li><a href="#">Bookmark 1</a></li>
           <li><a href="#">Bookmark 2</a></li>
           <li><a href="#">Bookmark 3</a></li>
         </ul>
-      </section>
-      <section>
-        <h2>Services</h2>
+      </div>
+      <div class="integrations">
+        <h2>Integrations</h2>
         <ul>
-          <li><a href="#">Spotify</a></li>
-          <li><a href="#">Netflix</a></li>
-          <li><a href="#">Amazon Prime Video</a></li>
+          <li><a href="#">Integration 1</a></li>
+          <li><a href="#">Integration 2</a></li>
+          <li><a href="#">Integration 3</a></li>
         </ul>
-      </section>
-      <section>
-        <h2>Messaging</h2>
-        <ul>
-          <li><a href="#">WhatsApp</a></li>
-          <li><a href="#">Telegram</a></li>
-          <li><a href="#">Messenger</a></li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <p>Copyright &copy; 2023</p>
-    </footer>
+      </div>
+      <div class="notes">
+        <h2>Notes</h2>
+        <p>Placeholder for note taking functionality</p>
+      </div>
+      <div class="ai-assistant">
+        <h2>AI Assistant</h2>
+        <p>Placeholder for AI assistant functionality</p>
+      </div>
+    </div>
   </body>
 </html>
