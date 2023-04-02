@@ -9,7 +9,9 @@
   <div class="wrapper">
     <div class="top-bar">
       <div class="search-box">
-        <input type="text" placeholder="Search">
+        <form action="https://www.bing.com/search?q={searchTerms}" method="get">
+          <input type="text" name="q" placeholder="Search">
+        </form>
       </div>
       <div class="weather">
         <div class="weather-icon"></div>
